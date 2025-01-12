@@ -1,0 +1,45 @@
+class Solution {
+    // Function to return the length of the last word in the given string
+    public int lengthOfLastWord(String s) {
+        // Trim any leading or trailing spaces from the string
+        s = s.trim();
+        
+        // Variable to store the length of the last word
+        int length = 0;
+        
+        // Iterate through the string from the end to the beginning
+        for (int i = s.length() - 1; i >= 0; i--) {
+            // If the character is not a space, it is part of the last word
+            if (s.charAt(i) != ' ') {
+                length++; // Increase the length of the last word
+            }
+            // If we encounter a space and the length has already started counting, break the loop
+            else if (length > 0) {
+                break; // Exit the loop once the last word has been counted
+            }
+        }
+        
+        // Return the length of the last word
+        return length;
+    }
+
+    // Main method to test the function
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        
+        // Test case 1: The input string "Hello World"
+        System.out.println(solution.lengthOfLastWord("Hello World")); // Output: 5
+        
+        // Test case 2: The input string "   fly me   to   the moon  "
+        System.out.println(solution.lengthOfLastWord("   fly me   to   the moon  ")); // Output: 4
+        
+        // Test case 3: The input string with no spaces "Java"
+        System.out.println(solution.lengthOfLastWord("Java")); // Output: 4
+        
+        // Test case 4: The input string with multiple spaces "   "
+        System.out.println(solution.lengthOfLastWord("   ")); // Output: 0
+        
+        // Test case 5: The input string "a"
+        System.out.println(solution.lengthOfLastWord("a")); // Output: 1
+    }
+}
