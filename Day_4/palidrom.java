@@ -1,18 +1,25 @@
-// public class palidrom {
-// public static void main(String[] args) {
-// Solution solution = new Solution();
+public class palidrom {
+  public static boolean isPalindrome(String str) {
+    int left = 0;
+    int right = str.length() - 1;
+    while (left < right) {
+      if (str.charAt(left) != str.charAt(right)) {
+        return false; // // Not a palindrome
+      }
+      left++;
+      right--;
+    }
+    return true;
+  }
 
-// // Test cases
-// int num1 = 121;
-// int num2 = -121;
-// int num3 = 10;
+  public static void main(String[] args) {
 
-// // Check if each number is a palindrome
-// System.out.println(num1 + " is palindrome? " + solution.isPalindrome(num1));
-// // true
-// System.out.println(num2 + " is palindrome? " + solution.isPalindrome(num2));
-// // false
-// System.out.println(num3 + " is palindrome? " + solution.isPalindrome(num3));
-// // false
-// }
-// }
+    // Test cases
+    String num1 = "hello";
+    String num3 = "00";
+    String word = "olo";
+    System.out.println(isPalindrome(num1));
+    System.out.println(isPalindrome(num3));
+    System.out.println(isPalindrome(word));
+  }
+}
