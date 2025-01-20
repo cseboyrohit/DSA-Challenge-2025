@@ -55,7 +55,7 @@ Today, we’ll focus on problems that help you practice **two-pointer techniques
    - Difficulty: Medium  
    - Use the two-pointer technique to find two numbers that add up to the target in a sorted array.  
 
-3. *[3Sum](https://leetcode.com/problems/3sum/)**  
+3. [3Sum](https://leetcode.com/problems/3sum/)**  
    - Difficulty: Medium  
    - Find all unique triplets in the array that sum to zero.  
 
@@ -63,7 +63,7 @@ Today, we’ll focus on problems that help you practice **two-pointer techniques
    - Difficulty: Medium  
    - Use two pointers to find two lines that together with the x-axis form a container, such that the container contains the most water.  
 
----
+
 
 ### Tips for Today:  
 - Visualize the problem with examples to better understand the logic.  
