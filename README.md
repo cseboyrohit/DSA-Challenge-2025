@@ -73,4 +73,33 @@ Today, we’ll focus on problems that help you practice **two-pointer techniques
 Let me know if you need help with any of these problems or their concepts!
 
 ===========================================================================================
+### **Day 8: Sliding Window Technique**  
+Today, you'll focus on **sliding window problems**, which are essential for optimizing solutions that involve subarrays or substrings.
+
+---
+
+1. **[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)**  
+   - Difficulty: Medium  
+   - Find the length of the longest substring without repeating characters.  
+
+2. **[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)**  
+   - Difficulty: Medium  
+   - Find the minimal length of a contiguous subarray for which the sum is greater than or equal to the target.  
+
+3. **[Permutation in String](https://leetcode.com/problems/permutation-in-string/)**  
+   - Difficulty: Medium  
+   - Check if one string is a permutation of a substring of another string.  
+
+4. **[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)**  
+   - Difficulty: Hard  
+   - Find the maximum in every sliding window of size `k`.  
+
+---
+
+### Tips for Sliding Window Problems:  
+- Start with a brute force approach, then optimize using the sliding window.  
+- Focus on maintaining the window boundaries and updating the result as the window slides.  
+- Debug with small test cases to understand how the window behaves.
+
+Let me know if you need any help with these problems or want to discuss their solutions!
 
