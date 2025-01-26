@@ -103,3 +103,32 @@ Today, you'll focus on **sliding window problems**, which are essential for opti
 
 Let me know if you need any help with these problems or want to discuss their solutions!
 
+------------------------------------------------------------------------------------------
+
+### **Day 6: Strings (Basics and Manipulations)**  
+Today, focus on problems that involve strings and their manipulations. These will help you build a strong foundation for solving string-based problems.
+
+
+1. **[Reverse String](https://leetcode.com/problems/reverse-string/)**  
+   - Difficulty: Easy  
+   - Reverse a string by modifying it in place using two pointers.  
+
+2. **[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)**  
+   - Difficulty: Easy  
+   - Check if a string is a palindrome, ignoring spaces and non-alphanumeric characters.  
+
+3. **[Implement strStr()](https://leetcode.com/problems/implement-strstr/)**  
+   - Difficulty: Easy  
+   - Implement the `strStr()` function to find the first occurrence of a substring in a string.  
+
+4. **[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)**  
+   - Difficulty: Easy  
+   - Find the longest common prefix among an array of strings.  
+
+---
+
+### Tips for String Problems:  
+- Carefully handle edge cases (e.g., empty strings, single-character strings).  
+- Practice using two-pointer techniques for palindrome and reversal problems.  
+- Start solving problems step by step: first handle basic logic, then optimize if needed.
+
