@@ -1,19 +1,29 @@
 // Optimized Sliding Window
 public class Implement_strStr_28 {
-public static int strStr(String str1, String str2){
-    int n=str1.length();
-    int m=str2.length();
-    if(m==0) return 0;
-    for(int i=0; i<n-m; i++){
-      int right=0;
-      while(right < m && str1.charAt(right + i) == str2.charAt(i)){
-      right++;
-      }
-      if(right == m) return i;
-    }
-    return -1;
+    public static int strStr(String haystack, String needle) {
+        int n = haystack.length(); // Length of the haystack string.
+        int m = needle.length(); // Length of the needle string.
 
-}
+        // If the needle is an empty string, return 0 as per problem definition.
+        if (m == 0) return 0;
+
+        // Loop through the haystack string.
+        for (int i = 0; i <= n - m; i++) {
+            int j = 0; // Initialize a pointer for needle.
+
+            // Check if substring of haystack matches needle.
+            while (j < m && haystack.charAt(i + j) == needle.charAt(j)) {
+                j++; // Increment j if characters match.
+            }
+
+            // If j equals the length of needle, it means we've found the match.
+            if (j == m) return i; // Return the starting index of the match.
+        }
+
+        // If no match is found, return -1.
+        return -1;
+    }
+
 public static void main(String[] args) {
   String haystack1 = "hello";
     String needle1 = "ll";
