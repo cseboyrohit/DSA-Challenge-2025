@@ -131,4 +131,34 @@ Today, focus on problems that involve strings and their manipulations. These wil
 - Carefully handle edge cases (e.g., empty strings, single-character strings).  
 - Practice using two-pointer techniques for palindrome and reversal problems.  
 - Start solving problems step by step: first handle basic logic, then optimize if needed.
+____________________________________________________________________________
+### **Day 7: Stack (Basics)**  
+Today, you’ll focus on problems that use stacks, a fundamental data structure. These problems will help you understand how to solve problems involving balanced brackets, evaluation of expressions, and more.
 
+---
+
+1. **[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)**  
+   - **Difficulty:** Easy  
+   - Check if a string containing `()` `{}` `[]` is valid (each open bracket is closed in the correct order).
+
+2. **[Min Stack](https://leetcode.com/problems/min-stack/)**  
+   - **Difficulty:** Medium  
+   - Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
+
+3. **[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)**  
+   - **Difficulty:** Medium  
+   - Evaluate the value of an arithmetic expression in Reverse Polish Notation (Postfix).  
+
+4. **[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)**  
+   - **Difficulty:** Medium  
+   - Use a stack to determine how many days you’d have to wait for a warmer temperature.
+
+---
+
+### **Tips for Solving Stack Problems**  
+- **Understand the LIFO (Last In First Out) behavior** of stacks.  
+- Practice using built-in stack implementations (e.g., `Stack` in Java, or a list in Python).  
+- Trace through the solution with small test cases to understand how the stack evolves.  
+- Use a stack whenever you need to reverse or maintain an order of operations.
+
+Let me know if you need help with any of these problems or concepts!
