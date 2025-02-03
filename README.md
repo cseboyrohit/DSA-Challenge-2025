@@ -160,5 +160,3 @@ Today, you’ll focus on problems that use stacks, a fundamental data structure.
 - Practice using built-in stack implementations (e.g., `Stack` in Java, or a list in Python).  
 - Trace through the solution with small test cases to understand how the stack evolves.  
 - Use a stack whenever you need to reverse or maintain an order of operations.
-
-Let me know if you need help with any of these problems or concepts!
