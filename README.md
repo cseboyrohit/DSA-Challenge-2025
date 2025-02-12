@@ -16,7 +16,7 @@ Majority Element
 Rotate Array
 Single Number
 Remove Duplicates from Sorted Array
-____________________________________________________________________________________________
+___________________________________________________________________________________________
 
 Day 5 & 6 Arrays & Hashing (Intermediate Problems)
 Here are your 4 problems for Day 3. These problems will strengthen your understanding of arrays and hashing concepts:
@@ -160,3 +160,4 @@ Today, you’ll focus on problems that use stacks, a fundamental data structure.
 - Practice using built-in stack implementations (e.g., `Stack` in Java, or a list in Python).  
 - Trace through the solution with small test cases to understand how the stack evolves.  
 - Use a stack whenever you need to reverse or maintain an order of operations.
+-------------------------------------------------------------------------------------------
