@@ -1,0 +1,38 @@
+class Solution {
+    public int alternatingGroups(int[] colors, int k) {
+        int n = colors.length;
+        int count = 0;
+
+        // Try every possible starting position
+        for (int i = 0; i < n; i++) {
+            boolean isValid = true;
+
+            // Check k-length subarray with circular wrap-around
+            for (int j = 0; j < k - 1; j++) {
+                int currIndex = (i + j) % n;
+                int nextIndex = (i + j + 1) % n;
+
+                if (colors[currIndex] == colors[nextIndex]) {
+                    isValid = false;
+                    break;
+                }
+            }
+
+            // If valid, count it as an alternating group
+            if (isValid) {
+                count++;
+            }
+        }
+
+        return count;
+    }
+
+    public static void main(String[] args) {
+        Solution sol = new Solution();
+
+        // Test cases
+        System.out.println(sol.alternatingGroups(new int[]{0, 1, 0, 1, 0}, 3));  // Output: 3
+        System.out.println(sol.alternatingGroups(new int[]{0, 1, 0, 0, 1, 0, 1}, 6)); // Output: 2
+        System.out.println(sol.alternatingGroups(new int[]{1, 1, 0, 1}, 4)); // Output: 0
+    }
+}
