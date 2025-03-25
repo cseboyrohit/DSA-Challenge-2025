@@ -153,11 +153,4 @@ Today, you’ll focus on problems that use stacks, a fundamental data structure.
    - **Difficulty:** Medium  
    - Use a stack to determine how many days you’d have to wait for a warmer temperature.
 
----
 
-### **Tips for Solving Stack Problems**  
-- **Understand the LIFO (Last In First Out) behavior** of stacks.  
-- Practice using built-in stack implementations (e.g., `Stack` in Java, or a list in Python).  
-- Trace through the solution with small test cases to understand how the stack evolves.  
-- Use a stack whenever you need to reverse or maintain an order of operations.
--------------------------------------------------------------------------------------------
