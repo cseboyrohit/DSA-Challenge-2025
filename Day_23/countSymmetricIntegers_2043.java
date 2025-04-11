@@ -43,4 +43,4 @@ class Solution {
 
         System.out.println("Count of Symmetric Integers = " + ans);
     }
-}
+}  
