@@ -150,7 +150,7 @@ Today, you’ll focus on problems that use stacks, a fundamental data structure.
    - Evaluate the value of an arithmetic expression in Reverse Polish Notation (Postfix).  
 
 4. **[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)**  
-   - **Difficulty:** Medium  
+   - Difficulty:** Medium  
    - Use a stack to determine how many days you’d have to wait for a warmer temperature.
 
 
