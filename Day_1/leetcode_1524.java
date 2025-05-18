@@ -5,7 +5,7 @@ class Solution {
         int prefixSum = 0, result = 0;
 
         for (int num : arr) {
-            prefixSum += num; // Update prefix sum
+            prefixSum += num; 
             
             if (prefixSum % 2 == 0) { 
                 result = (result + oddCount) % MOD; // Add all subarrays ending here with odd sum
