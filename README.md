@@ -103,7 +103,7 @@ Today, you'll focus on **sliding window problems**, which are essential for opti
 
 Let me know if you need any help with these problems or want to discuss their solutions!
 
-------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
 
 ### **Day 6: Strings (Basics and Manipulations)**  
 Today, focus on problems that involve strings and their manipulations. These will help you build a strong foundation for solving string-based problems.
