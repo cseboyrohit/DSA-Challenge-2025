@@ -151,6 +151,6 @@ Today, you’ll focus on problems that use stacks, a fundamental data structure.
 
 4. **[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)**  
    - Difficulty:** Medium  
-   - Use a stack to determine how many days you’d have to wait for a warmer temperature.
+
 
 
