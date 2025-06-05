@@ -137,7 +137,7 @@ Today, you’ll focus on problems that use stacks, a fundamental data structure.
 
 ---
 
-1. **[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)**  
+1. **[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
    - **Difficulty:** Easy  
    - Check if a string containing `()` `{}` `[]` is valid (each open bracket is closed in the correct order).
 
