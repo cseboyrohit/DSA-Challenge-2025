@@ -1,4 +1,4 @@
-class Solution {
+  class Solution {
     public void reverseString(char[] s) {
         int n=s.length;
         swap(s,0,n-1);
