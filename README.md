@@ -43,7 +43,7 @@ Valid Sudoku
 Difficulty: Medium
 Check if a Sudoku board configuration is valid using hashing for rows, columns, and grids.
 
--------------------------------------------------------------------------
+------------------------------------------------------------------
 Day 7: Arrays & Two Pointers 
 Today, we’ll focus on problems that help you practice **two-pointer techniques**, a foundational concept in DSA.
 
