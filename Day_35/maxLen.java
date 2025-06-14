@@ -8,7 +8,7 @@ public class Solution {
         int res = 0;
 
         for (int i = 0; i < arr.length; i++) {
-            // Convert 0s to -1 to find equal 0s and 1s
+            // Convert 0s to -1 to find equal 0s and 1
             sum += (arr[i] == 0) ? -1 : 1;
 
             if (sum == 0) {
