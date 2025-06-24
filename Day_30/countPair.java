@@ -1,4 +1,4 @@
-class Solution {
+  class Solution {
 
     int countPairs(int arr[], int target) {
         // Your code here
