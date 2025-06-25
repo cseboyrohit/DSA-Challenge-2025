@@ -1,7 +1,7 @@
 class Solution {
     public int numOfSubarrays(int[] arr) {
         final int MOD = 1_000_000_007; // 10^9 + 7
-        int oddCount = 0, evenCount = 1; // evenCount starts as 1 (empty prefix sum is even)
+        int oddCount = 0, evenCount = 1; // evenCount starts as 1 
         int prefixSum = 0, result = 0;
 
         for (int num : arr) {
