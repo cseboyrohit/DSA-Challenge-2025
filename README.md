@@ -2,7 +2,7 @@
 Week 1: Arrays & Hashing (Basics)
 
 Memory updated
-Understood! Here's a structured DSA practice plan for you, starting from basic to advanced levels:
+Understood! Here's a structured DSA practice plan for you, starting from basic to advanced levels:   `
 
 Week 1: Arrays & Hashing (Basics)
 Day 1:
