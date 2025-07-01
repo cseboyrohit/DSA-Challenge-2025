@@ -5,7 +5,7 @@ public class find_the_indexOf_28 {
           return 0;
       }
 
-      // Use indexOf to find the first occurrence of needle in haystack
+      //Use indexOf to find the first occurrence of needle in haystack
       return haystack.indexOf(needle);
   }
 
