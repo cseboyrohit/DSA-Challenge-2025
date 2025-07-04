@@ -1,4 +1,4 @@
-public class Brute_Force_28 {
+ public class Brute_Force_28 {
   public static int strStr(String haystack, String needle){
       int n=haystack.length();
       int m=needle.length();
