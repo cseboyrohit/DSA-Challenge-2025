@@ -6,7 +6,7 @@ public class Solution {
         // Find the index of the last space in the string
         int lastSpaceIndex = s.lastIndexOf(' ');
         
-        // The length of the last word is the difference between the total length and the position of the last space
+        //' The length of the last word is the difference between the total length and the position of the last space
         return s.length() - lastSpaceIndex - 1;
     }
 
