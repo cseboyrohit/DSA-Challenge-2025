@@ -1,6 +1,6 @@
 public class Solution {
     public int lengthOfLastWord(String s) {
-        // Trim any trailing spaces first
+        // Trim any trailing spaces m
         s = s.trim();
         
         // Find the index of the last space in the string
