@@ -18,7 +18,6 @@ class Solution {
             i--;
             j--;
         }
-
         return result.reverse().toString();
     }
 
