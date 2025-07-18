@@ -32,7 +32,7 @@ class Solution {
         int[] nums4 = {-5, -10, -3, -4};  // Only negative numbers case
 
         System.out.println(sol.maxSum(nums1)); // Output: 15
-        System.out.println(sol.maxSum(nums2)); // Output: 1
+        System.out.println(sol.maxSum(nums2)); 
         System.out.println(sol.maxSum(nums3)); // Output: 3
         System.out.println(sol.maxSum(nums4)); // Output: -3 (max negative)
     }
