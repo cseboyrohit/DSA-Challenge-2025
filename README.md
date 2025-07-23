@@ -17,7 +17,6 @@ Rotate Array
 Single Number
 Remove Duplicates from Sorted Array
 _______________________________________________________________________________  
-
 Day 5 & 6 Arrays & Hashing (Intermediate Problems)
 Here are your 4 problems for Day 3. These problems will strengthen your understanding of arrays and hashing concepts:
 
