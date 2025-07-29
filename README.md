@@ -10,7 +10,6 @@ Two Sum
 Contains Duplicate
 Valid Anagram
 Intersection of Two Arrays
-
 Day 2:
 Majority Element
 Rotate Array
