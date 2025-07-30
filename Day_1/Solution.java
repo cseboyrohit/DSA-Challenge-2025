@@ -1,7 +1,7 @@
   class Solution {
     public void reverseString(char[] s) {
         int n=s.length;
-        swap(s,0,n-1);
+        swap(s,0,n-1);// method 
         return;
     }
     public void swap(char[] ch, int i, int j){
